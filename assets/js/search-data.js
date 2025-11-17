@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-curriculum-vitae",
-          title: "Curriculum Vitae",
+        },{id: "nav-cv",
+          title: "CV",
           description: "Full academic CV for Ran Tao, including education, research experience, publications, and teaching.",
           section: "Navigation",
           handler: () => {
