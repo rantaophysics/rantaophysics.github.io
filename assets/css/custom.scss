@@ -1,0 +1,9 @@
+/* Make publication index inline with text */
+ol.bibliography {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+ol.bibliography > li {
+  margin-left: 0;
+}
