@@ -11,6 +11,7 @@ nav_order: 2
 
 ## Accepted / Published
 {% bibliography --query @*[note ^= Accepted] --group_by none --sort_by none %}
+{% bibliography --query @*[note ^= Published] --group_by none --sort_by none %}
 
 ## Under Review
 {% bibliography --query @*[note ^= Under] --group_by none --sort_by none %}
