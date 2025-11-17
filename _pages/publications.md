@@ -10,11 +10,11 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 ## Accepted / Published
-{% bibliography --query @*[note ^= Accepted] %}
+{% bibliography --query @*[note ^= Accepted] --group_by none --sort_by none %}
 
 ## Under Review
-{% bibliography --query @*[note ^= Under] %}
-{% bibliography --query @*[note ^= Submitted] %}
+{% bibliography --query @*[note ^= Under] --group_by none --sort_by none %}
+{% bibliography --query @*[note ^= Submitted] --group_by none --sort_by none %}
 
 ## In Preparation
-{% bibliography --query @*[note ^= In preparation] %}
+{% bibliography --query @*[note ^= In preparation] --group_by none --sort_by none %}
